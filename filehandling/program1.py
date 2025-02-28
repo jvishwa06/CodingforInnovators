@@ -1,0 +1,10 @@
+f1 = open('ai.txt',"w+")
+f1.write("hello humans")
+f1.seek(0)
+f1 = open('ai.txt', "w+")
+f1.write("hello humans")
+f1.close()
+
+f1 = open('ai.txt', "r")
+print(f1.read())
+f1.close()
