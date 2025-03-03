@@ -35,3 +35,6 @@ draw_piece(piece3,piece3Goto)
 
 turtle.hideturtle()
 turtle.done()
+
+
+print("check")
